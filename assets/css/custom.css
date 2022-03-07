@@ -1,0 +1,75 @@
+header{
+
+    background-color: burlywood;
+}
+
+
+main{
+
+    background-color: #228664;
+  }
+
+header{
+
+    background-color: #228664;
+}
+
+.secaoDetalhesConta__opcoesTransacoes{
+display: flex;
+justify-content: space-between;
+
+}
+
+.secaoDetalhesConta__itemTransacao{
+
+    background-color:#1F6F54;
+    list-style: none;
+    border: 1px;
+    border-radius: 10px;
+    width: 60px;
+    height: 120;
+    padding: 20px 60px 20px 20px;
+    
+}
+
+.secaoDetalhesConta__itemTransacao p{
+color: white;
+font-weight: 1000;
+text-align: left;
+
+white-space: nowrap
+
+}
+
+.secaoDetalhesConta__sobreSaldo button{
+background-color: white;
+border: 1px;
+border-radius: 10px;
+
+
+
+}
+
+.cabecalho .container{
+
+display: flex;
+align-items: center;
+border-bottom: 2px solid white;
+
+
+
+
+}
+
+.cabecalho__logoPicpro{
+    margin: 0px;
+    border-right: 2px solid lightgray
+
+}
+
+.cabecalho__logoKenzie{
+ margin-left: 15px;
+ margin-top: 10px;
+ padding-top: 20px;
+
+}
