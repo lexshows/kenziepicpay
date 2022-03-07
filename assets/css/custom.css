@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
 
     background-color: burlywood;
@@ -73,3 +78,51 @@ border-bottom: 2px solid white;
  padding-top: 20px;
 
 }
+
+.secaoDetalhesConta__sobreUsuario{
+display: flex;
+align-items: center;
+border-bottom: 1px solid black; 
+justify-content: space-between;
+
+
+}
+
+.secaoDetalhesConta__sobreUsuario .img-usuario-ola  p{
+margin-left: 20px;
+font-size: 18px;
+}
+
+.secaoDetalhesConta__sobreUsuario .img-usuario-ola img{
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.secaoDetalhesConta{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.secaoDetalhesConta__sobreUsuario p strong{
+    display: block;
+    font-weight: bold;
+    
+
+}
+
+.img-usuario-ola{
+    display: flex;
+    align-items: center;
+}
+
+.botoes-novos{
+    padding-right: 20px;
+    max-width: 50px;
+    max-height: 50px;
+
+}
+
+
